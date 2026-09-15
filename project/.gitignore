@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.cache/
+
+# Environment variables (NEVER commit these - contain API keys)
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Deployment
+.vercel
+.netlify
+
+# Claude AI assistant files (don't push to GitHub)
+.claude/
+*.claude
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+.temp/
+.tmp/
+
